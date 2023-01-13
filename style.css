@@ -1,17 +1,204 @@
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/3689d1b9-def2-446b-bc6c-ba159a4469f8/IN-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size:100%;
+    background-attachment:scroll;
+    width:100%;
+}
+
 .imagelogo{
 
-    position:relative;
-    z-index:-1;
-}
-.background{
-    margin-bottom:5%;
-position:absolute;
-z-index:-1;
-
-
+    margin-left:0;
+    width:140px;
 }
 
-.logo{
+
+
+.options{
+    height:50px;
+    background-color:black;
+    color:white;
+    width:120px;
+
+}
+
+.navbar{
     width:100%;
-    height:120px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-top:-6%;
+    margin-left:-4%;
+    padding-right:5px;
+
+
+    
+}
+
+
+nav.navbar{
+    padding:8px 16px;
+    
+}
+select.options{
+    padding:16px;
+    margin-right:3%;
+}
+.mybtn {
+ width:120px;
+ background-color:red;
+ color:white;  
+font-size:16px;
+cursor:pointer;
+border-width:0px;
+border-radius:35rem;}
+.mybtn a{
+    text-decoration: none;
+    color:white
+    
+}.head{
+    color:white;
+}
+
+
+.main-img{
+    display:flex;
+    flex-direction: row;
+}
+
+.main-content{
+    margin-right:10%;
+text-align:center;
+margin-top:5%;
+}
+
+.head{
+    text-align:center;
+}
+.text-man{
+    width:200px;
+    height:30px;
+
+}
+::placeholder{
+    font-size:16px;
+}
+.btn{
+    font-size:15px;
+height:35px;
+margin-left:-10px;
+border-style:solid;
+border-width:0px;
+background-color: red;
+cursor:pointer;
+color:white;
+
+}
+.section2{
+    display:flex;
+    flex-direction:row;
+}
+
+.head2{
+    flex:50%;
+    
+}
+
+.main-image1{
+    flex:50%;
+}
+.imgcont{
+    width:80%;
+
+    
+}
+.mainfaq{
+    
+    width:100%;
+   position:relative;
+   z-index:-1;
+    margin-left:300px;
+    
+    
+
+}
+
+.faq{
+  
+      text-align:left;
+          width:50%;
+      margin-bottom:1%;
+      cursor:pointer;
+      height:48px;
+      background-color:#303030;
+      color:white;
+font-weight:bold;
+      font-size:20px;
+      outline:none;
+      border-style:solid;
+      border-width:0px;
+      padding-left:10px;
+
+      
+
+
+}
+.head4{
+    margin-left:5%;
+
+    margin-top:5%;
+}
+.textbox{
+    text-align:center;
+    font-size:12px;
+}
+.text-man1{
+    width:400px;
+    height:40px;
+    
+
+}  
+.btn2{
+    height:45px;
+    background-color:red;
+    color:white;
+    outline:none;
+    border-style:solid;
+    border-width:0px;
+
+}  
+
+.mainfooter{
+    display:flex;
+   margin-bottom:-5%;
+   width:100%;
+   height:120px;
+   
+
+
+}
+
+.first{
+    flex:25%;
+}
+.second{
+    flex:25%;
+
+}
+.third{
+    flex:25%;
+}
+
+.fourth{
+    flex:25%;
+}
+footer{
+    width:100%;
+    height:350px;
+    margin-bottom:-10%;
+    position:relative;
+    z-index:1;
+    background-color:black;
+    
+
 }
